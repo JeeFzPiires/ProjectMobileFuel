@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "ProjectMobileFuel",
+    "slug": "ProjectMobileFuel",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "ProjectMobileFuel"
+}
