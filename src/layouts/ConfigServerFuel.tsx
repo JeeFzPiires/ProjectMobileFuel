@@ -10,6 +10,8 @@ import SombraLogo from '../assets/sombra.png'
 import { Button } from "../components/Button";
 import { Version } from "../components/Version";
 
+const data = ["CMB-100", "CB-98", "TP-4", "TP-10", "TMP-1", "POSTO 1", "POSTO 3", "POSTO 5", "POSTO 7"]
+
 export function ConfigServerSupplyLayout({children, onSubmit, onBack}) {
   const [modalVisible, setModalVisible] = useState(false)
 
@@ -71,7 +73,7 @@ export function ConfigServerSupplyLayout({children, onSubmit, onBack}) {
             <View className="bg-[#EEEFFF] rounded-xl h-1/3">
               <View className="mt-10 items-center justify-center">
                 <Text className="text-3xl font-bold">Configurando local de abastecimento</Text>
-                <Text className="text-xl mt-7">Deseja prosseguir utilizando o equipamento CMB-100</Text>
+                <Text className="text-xl mt-7">Deseja prosseguir utilizando o equipamento {data[0]}</Text>
               </View>
               
               <View className="flex-row justify-between px-2 mt-16">
